@@ -6,14 +6,16 @@ namespace OOP1
 {
     class ProductManager
     {
+        //encapculation
         public void Add(Product product)
         {
-
-            product.ProductName = "Kamera";
-
+            Console.WriteLine(product.ProductName +"eklendi");
         }
 
-
+        public void Update(Product product)
+        {
+            Console.WriteLine(product.ProductName + "guncellendi.");
+        }
 
     }
 }
